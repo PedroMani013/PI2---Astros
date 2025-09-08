@@ -1,0 +1,1 @@
+# Projeto Interdisciplinar - Sistema de votação para representante de sala
