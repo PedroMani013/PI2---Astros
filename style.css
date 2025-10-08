@@ -258,6 +258,18 @@ main {
     gap: 2vh;
 }
 
+.maincaixavotacao p{
+    font-size: 2vh;
+}
+
+.botaocaixavotacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin: 2%;
+}
+
 .botaocaixavotacao{
     display: flex;
     align-items: center;
@@ -276,14 +288,32 @@ main {
     border-radius: 2vh;
 }
 
+.botaocaixavotacao a:hover{
+    text-decoration: none;
+    background-color: #5a1316;
+    color: #FFF;
+    width: 40%; 
+    text-align:center;
+    padding: 2%;
+    border-radius: 2vh;
+}
+
 /* Botão de finalizar sessão */
 
 .finalizarsessao {
-    margin: 2vh auto;
+    margin: 5vh auto 0;
     background-color: #a32024;
     padding: 1vh 1.5vh;
     border-radius: 5px;
-    width: 30vh;
+    width: 25vh;
+}
+
+.finalizarsessao:hover {
+    margin: 5vh auto 0;
+    background-color: #5a1316;
+    padding: 1vh 1.5vh;
+    border-radius: 5px;
+    width: 25vh;
 }
 
 .finalizarsessao a {

@@ -18,7 +18,7 @@
         </header>
         <main class="index">
             <div class="votacaohead">
-                <h1>Votações Em Andamento</h1>
+                <h1>VOTAÇÕES EM ANDAMENTO</h1>
                 <div id="caixavotacao">
                     <div class="headcaixavotacao">
                         <h2>Votação para representante de sala e suplente</h2>
@@ -38,7 +38,7 @@
                 </div>
                 <div class="finalizarsessao">
                     <a href="index.html">
-                        <img src="images/user.png" alt="">
+                        <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>
                     
