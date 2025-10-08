@@ -24,11 +24,11 @@
                         <h2>Votação para representante de sala e suplente</h2>
                     </div>
                     <div class="maincaixavotacao">
-                        <p>Curso: Desenvolvimento de Software Multiplataforma</p>
-                        <p>Semestre: 2º</p>
-                        <p>Data para candidatura: 00/00/0000</p>
-                        <p>Data para inicio da votação: 00/00/0000</p>
-                        <p>Data de encerramento: 00/00/0000</p>
+                        <p>Curso: <?php?></p>
+                        <p>Semestre: <?php?></p>
+                        <p>Data para candidatura: <?php?></p>
+                        <p>Data para inicio da votação: <?php?></p>
+                        <p>Data de encerramento: <?php?></p>
                         <p>Candidatos: 4</p>
                         <div class="botaocaixavotacao">
                             <a href="">Candidatar</a>
