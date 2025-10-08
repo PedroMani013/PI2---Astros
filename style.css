@@ -275,3 +275,32 @@ main {
     padding: 2%;
     border-radius: 2vh;
 }
+
+/* Botão de finalizar sessão */
+
+.finalizarsessao {
+    margin: 2vh auto;
+    background-color: #a32024;
+    padding: 1vh 1.5vh;
+    border-radius: 5px;
+    width: 35%;
+}
+
+.finalizarsessao a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.finalizarsessao img {
+    width: 3vh;
+    height: 3vh;
+    margin-right: 8px;
+}
+
+.finalizarsessao p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.5vh;
+}
