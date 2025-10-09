@@ -17,7 +17,7 @@
             <img src="images/cps.png" alt="Logo Cps" class="logotop">
         </header>
         <main class="index">
-            <div class="votacaohead">
+            <div class="boxpadrao">
                 <h1>VOTAÇÕES EM ANDAMENTO</h1>
                 <div id="caixavotacao">
                     <div class="headcaixavotacao">
@@ -27,9 +27,8 @@
                         <p>Curso: <?php?></p>
                         <p>Semestre: <?php?></p>
                         <p>Data para candidatura: <?php?></p>
-                        <p>Data para inicio da votação: <?php?></p>
-                        <p>Data de encerramento: <?php?></p>
-                        <p>Candidatos: 4</p>
+                        <p>Data de inicio da votação: <?php?></p>
+                        <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
                             <a href="">Candidatar</a>
                             <a href="">Votar</a>
