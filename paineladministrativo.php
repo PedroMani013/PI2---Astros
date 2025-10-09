@@ -18,22 +18,25 @@
         </header>
         <main class="index">
             <div class="boxpadrao">
-                <h1>VOTAÇÕES EM ANDAMENTO</h1>
-                <div id="caixavotacao">
-                    <div class="headcaixavotacao">
-                        <h2>Votação para representante de sala e suplente</h2>
-                    </div>
-                    <div class="maincaixavotacao">
+                <h1>PAINEL ADMINISTRATIVO</h1>
+                <div class="votacaoadm">
+                    <div class="infovotacaoadm">
                         <p>Curso: <?php?></p>
                         <p>Semestre: <?php?></p>
-                        <p>Data para candidatura: <?php?></p>
-                        <p>Data de inicio da votação: <?php?></p>
-                        <p>Candidatos: <?php?></p>
-                        <div class="botaocaixavotacao">
-                            <a href="">Candidatar</a>
-                            <a href="">Votar</a>
-                        </div>
+                        <p>Data de candidatura: <?php?></p>
+                        <p>Data de inicio: <?php?></p>
+                        <p>Número de candidatos: <?php?></p>
                     </div>
+                    <div class="botoesvotoadm">
+                        <a href="">Administrar Candidatos</a>
+                        <a href="">Visualizar Votos</a>
+                    </div>
+                </div>
+                <div class="criarvot">
+                    <a href="">
+                        <img src="images/addvotacao.png" alt="">
+                        <h3>Criar Votação</h3>
+                    </a>
                 </div>
                 <div class="finalizarsessao">
                     <a href="index.html">
