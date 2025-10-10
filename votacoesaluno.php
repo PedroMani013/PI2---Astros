@@ -31,7 +31,7 @@
                         <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
                             <a href="">Candidatar</a>
-                            <a href="">Votar</a>
+                            <a href="candidatosalunos.php">Votar</a>
                         </div>
                     </div>
                 </div>
