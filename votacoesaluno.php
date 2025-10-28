@@ -30,8 +30,8 @@
                         <p>Data de inicio da votação: <?php?></p>
                         <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
-                            <a href="">Candidatar</a>
-                            <a href="candidatosalunos.php">Votar</a>
+                            <a href="candidatura.html">Candidatar</a>
+                            <a href="#">Votar</a>
                         </div>
                     </div>
                 </div>
