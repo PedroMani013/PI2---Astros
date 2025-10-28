@@ -401,3 +401,124 @@ main {
 .criavot img{
     width: 20vh;
 }
+
+/* Formulário Candidatura e criação de votação */
+
+.formmain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #e2e2e2;
+}
+
+#formbox{
+    background-color: #FFF;
+    border: 3px solid #CCC;
+    border-radius: 3vh;
+    padding: 2%;
+    width: 60vh;
+    margin-top: 4vh;
+}
+
+#formbox h2{
+    font-size: 1.8rem;
+    margin-bottom: 2vh;
+    text-align: center;
+}
+
+#formbox label{
+    font-size: 1.2rem;
+    margin: 30px auto;
+}
+
+#formbox input[type="text"], input[type="email"]{
+    display:flex;
+    align-items:center;
+    width: 100%;
+    padding: 1.5vh 0 1.5vh 0.8vh;
+    margin: 1vh auto 1vh -0.8vh;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 1vh;
+}
+
+#formbox input[type="file"] {
+    display: none;
+}
+
+.btn-upload {
+    background-color: #a32024;
+    color: white;
+    padding: 1.5vh 5vh;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-upload:hover {
+    background-color: #5a1316;
+}
+
+.upload{
+    margin-top: 1.5vh;
+}
+
+#formbox input[type="submit"]{
+    display:flex;
+    align-items: center;
+    margin: 10vh auto 0 auto;
+    width: 60%;
+    padding: 5px 10px;
+    height: 8vh;
+    font-size: 2.5vh;
+    letter-spacing: 1px;
+    background-color: #147C0E;
+    color: #fff;
+    border: none;
+    border-radius: 5vh;
+    cursor: pointer;
+}
+
+#formbox input[type="submit"]:hover{
+    background-color: #0c5808;
+    transition: background-color 0.3s ease;
+}
+
+.finalizarsessao {
+    margin: 5vh auto;
+    background-color: #a32024;
+    padding: 1vh 1.5vh;
+    border-radius: 5px;
+    width: 35vh;
+}
+
+.finalizarsessao:hover {
+    margin: 5vh auto;
+    background-color: #5a1316;
+    padding: 1vh 1.5vh;
+    border-radius: 5px;
+    width: 35vh;
+}
+
+.finalizarsessao a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+}
+
+.finalizarsessao img {
+    width: 3vh;
+    height: 3vh;
+    margin-right: 8px;
+}
+
+.finalizarsessao p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 2.5vh;
+}

@@ -16,8 +16,43 @@
             <h1>Votação Para Representante de Sala</h1>
             <img src="images/cps.png" alt="Logo Cps" class="logotop">
         </header>
-        <main class="index">
-            
+        <main class="formmain">
+            <div id="formbox">
+                <h2>Realizar Candidatura</h2>
+                <form action="" method="post">
+                    <label for="nome">Informe seu nome completo:</label><br>
+                    <input type="text" name="nomecandidato" placeholder="Nome Completo"><br>
+                    <label for="nome">Informe seu registro acadêmico:</label><br>
+                    <input type="text" name="RA" placeholder="ex: 2781392513000"><br>
+                    <label for="nome">Informe seu e-mail fatec:</label><br>
+                    <input type="text" name="email" placeholder="@fatec.sp.gov.br"><br>
+                    <div class="upload">
+                        <label for="imagem">Envie uma foto de perfil:</label>
+                        <label for="imagem" class="btn-upload">Carregar Imagem</label>
+                        <input type="file" id="imagem" name="imagem">
+                    </div>
+                    <script>
+                        const input = document.getElementById('imagem');
+                        const mensagem = document.getElementById('mensagem');
+
+                        input.addEventListener('change', () => {
+                            if (input.files.length > 0) {
+                                alert("Imagem carregada com sucesso!");
+                                mensagem.style.color = 'green';
+                            } else {
+                                mensagem.textContent = '';
+                            }
+                        });
+                    </script>
+                    <input type="submit" value="Enviar Formulário">
+                </form>
+                </div>
+                <div class="finalizarsessao">
+                    <a href="votacoesaluno.php">
+                        <img src="images/log-out.png" alt="">
+                        <p>Voltar Para Votações</p>
+                    </a>
+                </div>
         </main>
         <footer class="rodape">
             <img src="images/govsp.png" alt="" class="logosp">
