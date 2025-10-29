@@ -33,7 +33,7 @@
                     </div>
                 </div>
                 <div class="criarvot">
-                    <a href="">
+                    <a href="criarvotacao.html">
                         <img src="images/addvotacao.png" alt="">
                         <h3>Criar Votação</h3>
                     </a>
