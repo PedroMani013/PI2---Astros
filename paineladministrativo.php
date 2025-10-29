@@ -18,7 +18,7 @@
         </header>
         <main class="index">
             <div class="boxpadrao">
-                <h1>PAINEL ADMINISTRATIVO</h1>
+                <h1 class="headpaineladm">PAINEL ADMINISTRATIVO</h1>
                 <div class="votacaoadm">
                     <div class="infovotacaoadm">
                         <p>Curso: <?php?></p>

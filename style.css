@@ -230,7 +230,7 @@ main {
 .boxpadrao h1{
     font-size: 3.5vh;
     text-align: center;
-    margin-bottom: 5%;
+    margin: 5% auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
