@@ -432,7 +432,7 @@ main {
     margin: 30px auto;
 }
 
-#formbox input[type="text"], input[type="email"]{
+#formbox input[type="text"], input[type="email"], input[type="date"], select{
     display:flex;
     align-items:center;
     width: 100%;
@@ -441,6 +441,11 @@ main {
     font-size: 1rem;
     border: 2px solid #ccc;
     border-radius: 1vh;
+    color: #4b4b4b
+}
+
+#formbox select{
+    width: 102.5%;
 }
 
 #formbox input[type="file"] {
@@ -448,6 +453,9 @@ main {
 }
 
 .btn-upload {
+    display: flex;
+    align-items: center;
+    width: 50%;
     background-color: #a32024;
     color: white;
     padding: 1.5vh 5vh;
@@ -463,14 +471,10 @@ main {
     background-color: #5a1316;
 }
 
-.upload{
-    margin-top: 1.5vh;
-}
-
 #formbox input[type="submit"]{
     display:flex;
     align-items: center;
-    margin: 10vh auto 0 auto;
+    margin: 4vh auto 0 auto;
     width: 60%;
     padding: 5px 10px;
     height: 8vh;
