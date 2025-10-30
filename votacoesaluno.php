@@ -31,7 +31,7 @@
                         <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
                             <a href="candidatura.html">Candidatar</a>
-                            <a href="#">Votar</a>
+                            <a href="areaeleicao.php">Votar</a>
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,6 @@
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>
-                    
                 </div>
             </div>
         </main>
