@@ -76,6 +76,7 @@ main {
 
 .index{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
@@ -308,7 +309,7 @@ main {
 /* Botão de finalizar sessão */
 
 .finalizarsessao {
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
     background-color: #a32024;
     padding: 1vh 1.5vh;
     border-radius: 5px;
@@ -316,7 +317,7 @@ main {
 }
 
 .finalizarsessao:hover {
-    margin: 5vh auto 0;
+    margin: 2vh auto 0;
     background-color: #5a1316;
     padding: 1vh 1.5vh;
     border-radius: 5px;
@@ -525,4 +526,124 @@ main {
     margin: 0;
     font-weight: bold;
     font-size: 2.5vh;
+}
+
+/* Candidatos */
+
+.boxcandidatos{
+    width: 90%;
+    margin: 2% auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3vh;
+    padding: 3vh 0;
+    border-radius: 3vh;
+}
+
+.candidato {
+    background-color: #FFF;
+    border: 0.4rem solid #ccc;
+    border-radius: 30px;
+    width: 17%;
+    min-width: 300px;
+    height: auto;
+    text-align: center;
+    margin: 3%;
+    float: none;
+}
+
+.candidato img {
+    margin: 4vh 0;
+}
+
+.candidatotext {
+    background-color: #EDC5C6;
+    border-radius: 0 0 3vh 3vh;
+}
+
+.candidatotext p {
+    padding: 1vh;
+    font-size: 3vh;
+}
+
+.botaovot button{
+    background-color: #147C0E;
+    color: #FFF;
+    border: none;
+    width: 35%;
+    padding: 0.8vh;
+    border-radius: 10vh;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.botaovot button:hover{
+    background-color: #0c5808;
+    transition: background-color 0.3s ease;
+}
+
+/* === POPUP PERSONALIZADO === */
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(64, 64, 64, 0.7);
+  display: none; /* oculto por padrão */
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.popup {
+  background: #fff;
+  border-radius: 15px;
+  text-align: center;
+  padding: 30px 40px;
+  width: 400px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 0.3s ease;
+}
+
+.popup-icon {
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+.popup h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+}
+
+.popup p {
+  font-size: 15px;
+  color: #333;
+  margin-bottom: 25px;
+  line-height: 1.5em;
+}
+
+.popup button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.2s;
+}
+
+.popup button:hover {
+  background-color: #388e3c;
+}
+
+/* animação */
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.9); }
+  to { opacity: 1; transform: scale(1); }
 }
