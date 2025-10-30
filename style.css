@@ -81,6 +81,11 @@ main {
     justify-content: center;
 }
 
+.index h1{
+    font-size: 4vh;
+    margin-top: 2%;
+}
+
 #containerindex{
     display: flex;
     flex-direction: column;
@@ -532,7 +537,7 @@ main {
 
 .boxcandidatos{
     width: 90%;
-    margin: 2% auto;
+    margin: 2% auto 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -580,6 +585,22 @@ main {
 
 .botaovot button:hover{
     background-color: #0c5808;
+    transition: background-color 0.3s ease;
+}
+
+.botaoremov button{
+    background-color: #a32024;
+    color: #FFF;
+    border: none;
+    width: 50%;
+    padding: 0.8vh;
+    border-radius: 10vh;
+    font-size: 2vh;
+    cursor: pointer;
+}
+
+.botaoremov button:hover{
+    background-color: #5a1316;
     transition: background-color 0.3s ease;
 }
 
