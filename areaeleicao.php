@@ -30,6 +30,12 @@
                     </div>
                 </div>
             </div>
+            <div class="finalizarsessao">
+                    <a href="votacoesaluno.php">
+                        <img src="images/log-out.png" alt="">
+                        <p>Voltar Para Votações</p>
+                    </a>
+                </div>
         </main>
         <footer class="rodape">
             <img src="images/govsp.png" alt="" class="logosp">
