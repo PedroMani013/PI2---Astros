@@ -28,7 +28,7 @@
                         <p>Número de candidatos: <?php?></p>
                     </div>
                     <div class="botoesvotoadm">
-                        <a href="">Administrar Candidatos</a>
+                        <a href="administracaocandidatos.php">Administrar Candidatos</a>
                         <a href="">Visualizar Votos</a>
                     </div>
                 </div>
