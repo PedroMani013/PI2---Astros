@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="finalizarsessao">
-                    <a href="votacoesaluno.php">
+                    <a href="paineladministrativo.php">
                         <img src="images/log-out.png" alt="">
                         <p>Voltar Para Votações</p>
                     </a>
