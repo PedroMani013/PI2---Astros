@@ -29,7 +29,7 @@
                     </div>
                     <div class="botoesvotoadm">
                         <a href="administracaocandidatos.php">Administrar Candidatos</a>
-                        <a href="">Visualizar Votos</a>
+                        <a href="votosadm.php">Visualizar Votos</a>
                     </div>
                 </div>
                 <div class="criarvot">
