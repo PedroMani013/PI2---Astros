@@ -4,4 +4,3 @@
  - Pedro Maniezo Fernandes
  - Luis Gustavo Araujo
  - Gabriel da Silva Manrique
- - Cássia Priscila Lavoura
