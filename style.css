@@ -93,7 +93,7 @@ main {
     width: 50%;
     height: 60vh;
     border-radius: 12vh;
-    box-shadow: 2px 8px 12px 2px #f1f1f1;
+    box-shadow: 2px 8px 12px 8px #d1d1d1;
 }
 
 #containerindex h2{
@@ -241,7 +241,7 @@ main {
 }
 
 #caixavotacao{
-    box-shadow: 2px 8px 12px 2px #d1d1d1;
+    box-shadow: 2px 8px 12px 8px #d1d1d1;
     border-radius: 35px;
     width: 40%;
     margin: 0 auto;
@@ -359,7 +359,7 @@ main {
     align-items: center;
     margin: 1vh auto; /* pequenas margens laterais */
     width: 60%;     /* quase toda a largura */
-    box-shadow: 2px 8px 12px 2px #eeeeee;
+    box-shadow: 2px 8px 12px 8px #eeeeee;
 }
 
 .infovotacaoadm {
@@ -549,7 +549,7 @@ main {
 
 .candidato {
     background-color: #FFF;
-    box-shadow: 2px 8px 12px 2px #d1d1d1;
+    box-shadow: 2px 8px 12px 8px #d1d1d1;
     border-radius: 30px;
     width: 17%;
     min-width: 300px;
@@ -626,7 +626,7 @@ main {
   text-align: center;
   padding: 30px 40px;
   width: 400px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 2px 8px 12px 8px #d1d1d1;
   animation: fadeIn 0.3s ease;
 }
 
@@ -686,7 +686,7 @@ main {
     border-radius: 2vh;
     width: 25%;
     background-color: #FFF;
-    box-shadow: 2px 8px 12px 2px #d1d1d1;
+    box-shadow: 2px 8px 12px 8px #d1d1d1;
 }
 
 .boxalunotitulo{
@@ -736,4 +736,46 @@ main {
 .gerarata a:hover{
     background-color: #0c5808;
     transition: background-color 0.3s ease;
+}
+
+/* Popups verdes de conclusão */
+
+.greenpopup {
+    background: linear-gradient(to bottom, #A9FF98, #89e68c);
+    color: #034100;
+    width: 60%;
+    margin: 4vh auto;
+    text-align: center;
+    border-radius: 5vh;
+    height: auto;
+    box-shadow: 2px 8px 12px 8px #d1d1d1;
+}
+
+.greenpopup img {
+    margin: 6vh
+}
+
+.greenpopup h2 {
+    font-size: 3.5rem;
+    letter-spacing: 0.5vh;
+    padding: 2vh;
+}
+
+.greenpopup h3 {
+    font-size: 2rem;
+    letter-spacing: 0.2vh;
+    padding: 3vh;
+}
+
+.greenpopup p {
+    margin: 4vh;
+}
+
+.greenpopup a {
+    color: #034100;
+    font-size: 1.5rem;
+}
+
+.greenpopup span {
+    color: #A9FF98;
 }

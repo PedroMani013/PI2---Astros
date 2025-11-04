@@ -77,7 +77,7 @@
         confirmarBtn.addEventListener("click", () => {
             const candidatoEscolhido = confirmarBtn.getAttribute("data-candidato");
             // Redireciona para a página PHP (envie o nome via GET, por exemplo)
-            window.location.href = `confirmar_voto.php?candidato=${encodeURIComponent(candidatoEscolhido)}`;
+            window.location.href = `popupvotoconcluido.php?candidato=${encodeURIComponent(candidatoEscolhido)}`;
         });
     </script>
 </body>
