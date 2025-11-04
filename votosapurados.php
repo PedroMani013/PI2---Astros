@@ -41,10 +41,10 @@
                 </div>
             </div>
             <div class="gerarata">
-                <p><a href="#">Gerar Ata</a></p>
+                <p><a href="popupbaixandoata.php">Gerar Ata</a></p>
             </div>
             <div class="apurarvotos">
-                <p><a href="#">Finalizar Votação</a></p>
+                <p><a href="popupfinalizarvotacao.php">Finalizar Votação</a></p>
             </div>
             <div class="finalizarsessao">
                 <a href="paineladministrativo.php">
