@@ -804,3 +804,42 @@ main {
 .invisible{
     color: #EDC5C6;
 }
+
+/* lista Alunos */
+
+/* Lista Alunos */
+
+#listavotos {
+    width: 60%;
+    margin: 3vh auto;
+    padding: 2vh;
+    background-color: #fff;
+    border-radius: 3vh;
+    border: 2px solid #ccc;
+}
+
+.itemvoto {
+    background-color: #EDC5C6;
+    padding: 1.5vh 2vh;
+    margin-bottom: 1.5vh;
+    border-radius: 1.5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.itemvoto label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.votocheck {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.1rem;
+    color: #333;
+    gap: 1vh;
+}
+

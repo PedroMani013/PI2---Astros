@@ -78,6 +78,15 @@
                     </div>
                 </div>
             </div>
+            <div id="listavotos">
+                <div class="itemvoto">
+                    <label>Nome</label>
+                    <div class="votocheck">
+                        <span>Voto:</span>
+                        <img src="images/checkbox_voto.png" width="30">
+                    </div>
+                </div>
+            </div>
             <div class="apurarvotos">
                 <p><a href="votosapurados.php">Apurar Votos</a></p>
             </div>
