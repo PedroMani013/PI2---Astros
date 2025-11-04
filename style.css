@@ -718,3 +718,22 @@ main {
     background-color: #1f3e83;
     transition: background-color 0.3s ease;
 }
+
+.gerarata p{
+    margin: 3vh 0 5vh;
+}
+
+.gerarata a{
+    text-decoration: none;
+    padding: 2vh 53.55vh;
+    border: none;
+    border-radius: 1vh;
+    background-color: #147C0E;
+    color: #FFF;
+    font-size: 2vh;
+}
+
+.gerarata a:hover{
+    background-color: #0c5808;
+    transition: background-color 0.3s ease;
+}
