@@ -16,19 +16,12 @@
             <h1>Votação Para Representante de Sala</h1>
             <img src="images/cps.png" alt="Logo Cps" class="logotop">
         </header>
-        <main class="index">
-            <div id="login">
-                <div class="loginhead">
-                    <img src="images/livro.png" alt="book">
-                    <h2>LOGIN</h2>
-                    <h3>Portal do administrador</h3>
-                </div>
-                <form action="paineladministrativo.php" method="post" class="loginbody">
-                    <input type="text" name="Login" id="" placeholder="Login (e-mail)">
-                    <input type="password" name="password" id="" placeholder="Senha">
-                    <input type="submit" value="Entrar">
-                </form>
-                <a href="esquecisenha.php">Esqueceu a senha?</a>
+        <main>
+            <div id="forgpasspopup">
+                <p>Um e-mail foi enviado com um link para redefinição da senha</p>
+                <span>Verifique sua caixa de entrada</span>
+                <br>
+                <span class="invisible">.</span>
             </div>
         </main>
         <footer class="rodape">
