@@ -1,4 +1,4 @@
-CREATE DATABASE astros
+CREATE DATABASE astros;
 
 CREATE TABLE tb_administradores (
 	idadmin INT PRIMARY KEY AUTO_INCREMENT,
@@ -32,9 +32,9 @@ CREATE TABLE tb_alunos (
 CREATE TABLE tb_candidatos (
 	idcandidato INT PRIMARY KEY AUTO_INCREMENT,
 	imagem BLOB NOT NULL,
-	idaluno INT,
-	FOREIGN KEY (idaluno) REFERENCES
-	tb_alunos(idaluno),
+	nomealuno VARCHAR(80) NOT NULL,
+    email VARCHAR(60) NOT NULL,
+    ra INT NOT NULL,
 	idvotacao INT,
 	FOREIGN KEY (idvotacao) REFERENCES
 	tb_votacoes(idvotacao) );
