@@ -1,4 +1,5 @@
 CREATE DATABASE astros;
+USE astros;
 
 CREATE TABLE tb_administradores (
 	idadmin INT PRIMARY KEY AUTO_INCREMENT,
