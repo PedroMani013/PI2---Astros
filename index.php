@@ -20,12 +20,12 @@
             <div id="containerindex">
                 <h2>Quem está fazendo o login?</h2>
                 <div id="admaluno">
-                    <a href="logadm.html" class="boxlog">
+                    <a href="logadm.php" class="boxlog">
                         <img src="images/book-open.png" class="imgindex" alt="bookopen">
                         <h3>Administrador</h3>
                         <p>Cria e administra as votações, apurando votos</p>
                     </a>
-                    <a href="logaluno.html" class="boxlog">
+                    <a href="logaluno.php" class="boxlog">
                         <img src="images/user.png" class="imgindex" alt="user">
                         <h3>Aluno</h3>
                         <p>Vota em um candidato para representante e se candidata</p>

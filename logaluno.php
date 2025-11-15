@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
+<?php
+require_once 'conexao.php';
+?>
+
 <body>
     <div id="tudo">
         <header class="topo">
