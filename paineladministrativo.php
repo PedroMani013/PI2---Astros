@@ -33,13 +33,13 @@
                     </div>
                 </div>
                 <div class="criarvot">
-                    <a href="criarvotacao.html">
+                    <a href="criarvotacao.php">
                         <img src="images/addvotacao.png" alt="">
                         <h3>Criar Votação</h3>
                     </a>
                 </div>
                 <div class="finalizarsessao">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>

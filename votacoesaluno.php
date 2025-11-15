@@ -30,13 +30,13 @@
                         <p>Data de inicio da votação: <?php?></p>
                         <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
-                            <a href="candidatura.html">Candidatar</a>
+                            <a href="candidatura.php">Candidatar</a>
                             <a href="areaeleicao.php">Votar</a>
                         </div>
                     </div>
                 </div>
                 <div class="finalizarsessao">
-                    <a href="index.html">
+                    <a href="index.php">
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>
