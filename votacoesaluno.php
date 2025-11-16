@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Verificar se o usuário está logado
+if (!isset($_SESSION['aluno'])) {
+    header('Location: logaluno.php');
+    exit;
+}
+
+$nome_aluno = $_SESSION['aluno']['nome'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -30,13 +42,13 @@
                         <p>Data de inicio da votação: <?php?></p>
                         <p>Candidatos: <?php?></p>
                         <div class="botaocaixavotacao">
-                            <a href="candidatura.html">Candidatar</a>
+                            <a href="candidatura.php">Candidatar</a>
                             <a href="areaeleicao.php">Votar</a>
                         </div>
                     </div>
                 </div>
                 <div class="finalizarsessao">
-                    <a href="index.html">
+                    <a href="logout.php">
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>

@@ -1,3 +1,16 @@
+
+<?php
+session_start();
+
+// Verificar se o usuário está logado
+if (!isset($_SESSION['admin'])) {
+    header('Location: logadm.php');
+    exit;
+}
+
+$nome_admin = $_SESSION['admin']['nome'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -33,13 +46,13 @@
                     </div>
                 </div>
                 <div class="criarvot">
-                    <a href="criarvotacao.html">
+                    <a href="criarvotacao.php">
                         <img src="images/addvotacao.png" alt="">
                         <h3>Criar Votação</h3>
                     </a>
                 </div>
                 <div class="finalizarsessao">
-                    <a href="index.html">
+                    <a href="logout.php">
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>
