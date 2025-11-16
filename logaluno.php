@@ -1,3 +1,10 @@
+<?php
+
+session_start();
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,6 +14,7 @@
     <title>ASTROS - Sistema De Votação</title>
     <link rel="shortcut icon" href="images/astros.png">
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <?php
@@ -22,22 +30,30 @@ require_once 'conexao.php';
         </header>
         <main class="index">
             <div id="login">
+                <?php if (isset($_SESSION['erro_login'])): ?>
+                    <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
+                        <?php 
+                        echo $_SESSION['erro_login'];
+                        unset($_SESSION['erro_login']); // Limpa a mensagem após exibir
+                        ?>
+                    </div>
+                <?php endif; ?>
                 <div class="loginhead">
                     <img src="images/user_login.png" alt="user">
                     <h2>LOGIN</h2>
                     <h3>Portal do aluno</h3>
+
                 </div>
-                <form action="votacoesaluno.php" method="post" class="loginbody">
-                    <input type="text" name="Login" id="" placeholder="Login (RA)">
-                    <input type="password" name="password" id="" placeholder="Senha">
+                <form action="processalogaluno.php" method="post" class="loginbody">
+                    <input type="email" name="email" id="email" placeholder="Login (Email)" required>
+                    <input type="password" name="password" id="" placeholder="Senha" required>
                     <input type="submit" value="Entrar">
                 </form>
-                <a href="esquecisenha.php">Esqueceu a senha?</a>
             </div>
         </main>
         <footer class="rodape">
             <img src="images/govsp.png" alt="" class="logosp">
-            <img src="images/astros.png" alt="" class="logobottom">
+            <img src="images/astros.png" alt="" class="logobottomlogin">
         </footer>
     </div>
 </body>
