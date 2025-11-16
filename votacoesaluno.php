@@ -1,3 +1,15 @@
+<?php
+session_start();
+
+// Verificar se o usuário está logado
+if (!isset($_SESSION['aluno'])) {
+    header('Location: logaluno.php');
+    exit;
+}
+
+$nome_aluno = $_SESSION['aluno']['nome'];
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -36,7 +48,7 @@
                     </div>
                 </div>
                 <div class="finalizarsessao">
-                    <a href="index.php">
+                    <a href="logout.php">
                         <img src="images/log-out.png" alt="">
                         <p>Finalizar Sessão</p>
                     </a>
