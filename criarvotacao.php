@@ -39,9 +39,12 @@ require_once 'conexao.php';
                     <label for="curso">Selecione o curso que a votação será realizada</label><br>
                     <select name="curso">
                         <option value="0">Curso...</option>
-                        <option value="DSM">Desenvolvimento de software multiplataforma</option>
-                        <option value="GPI">Gestão De Produção Industrial</option>
-                        <option value="GE">Gestão Empresarial</option>
+                        <option value="Desenvolvimento de software multiplataforma">
+                            Desenvolvimento de software multiplataforma</option>
+                        <option value="Gestão de produção industrial">
+                            Gestão De Produção Industrial</option>
+                        <option value="Gestão empresarial">
+                            Gestão Empresarial</option>
                     </select><br>
                     <label for="semestre">Selecione o semestre que a votação será realizada</label><br>
                     <select name="semestre">

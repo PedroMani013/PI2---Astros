@@ -849,7 +849,7 @@ main {
     gap: 1vh;
 }
 
-/* Erro de cadastro/login */
+/* Erro/sucesso de cadastro/login */
 
 .erro{
     color: #a32024;
@@ -863,3 +863,17 @@ main {
 .erro span{
     font-size: 1.2rem;
 }
+
+.sucesso{
+    color: #0c5808;
+    background-color: #6eb470;
+    padding: 3vh;
+    border: 2px solid #0c5808;
+    border-radius: 1.2vh;
+    margin: 2vh 0;
+}
+
+.sucesso span{
+    font-size: 1.2rem;
+}
+
